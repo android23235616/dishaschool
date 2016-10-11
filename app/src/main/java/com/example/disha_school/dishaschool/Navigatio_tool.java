@@ -90,7 +90,8 @@ public class Navigatio_tool extends AppCompatActivity
     Context context;
     TextView bout_app;
     TextView source,destinition;
-    static String address = "";
+    static String address = "Current location can't be determined. " +
+            "Please check your location settings or choose a different source location.";
   private Activity mContext=this;
    final int per_rqst_code=1;
     List<Address> addrList;
