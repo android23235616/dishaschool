@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sunday"
+            android:icon="@drawable/sun"
+            android:title="Sunday" />
+        <item
+            android:id="@+id/monday"
+            android:icon="@drawable/monday"
+            android:title="Monday" />
+        <item
+            android:id="@+id/tuesday"
+            android:icon="@drawable/tue"
+            android:title="Tuesday" />
+        <item
+            android:id="@+id/wednesday"
+            android:icon="@drawable/wedn"
+            android:title="Wednesay"/>
+        <item
+            android:id="@+id/thursday"
+            android:icon="@drawable/tue"
+            android:title="Thursday" />
+        <item
+        android:id="@+id/friday"
+        android:icon="@drawable/fa"
+        android:title="Friday"/>
+
+        <item
+            android:id="@+id/saturday"
+            android:icon="@drawable/sun"
+            android:title="Saturday"/>
+
+        <item
+            android:id="@+id/calendar"
+            android:icon="@drawable/c"
+            android:title="Calendar"/>
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/ic_menu_share"
+            android:title="About App" />
+
+    </group>
+
+<group  android:checkableBehavior="single">
+        <menu >
+
+        </menu>
+
+</group>
+</menu>

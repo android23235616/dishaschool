@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+<FrameLayout
+    android:padding="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+
+   android:id="@+id/builderframelayout"
+    android:background="@drawable/framelayout"
+
+    >
+  <ImageView
+      android:layout_width="54dp"
+      android:layout_height="54dp"
+      android:src="@drawable/ic_launcher"
+      android:background="@drawable/boundary"
+      />
+
+    <TextView
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Disha School"
+        android:textColor="#E6B0AA"
+        android:textStyle="bold"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutbuilder"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="@drawable/boundary"
+            android:padding="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Default source location is your current location"
+            android:textColor="#C39BD3"
+            android:textSize="17dp"
+            android:layout_gravity="center|right"/>
+
+
+    </LinearLayout>
+    <Button
+        android:alpha="0.25"
+        android:background="#66000000"
+        android:id="@+id/buttonBuidler"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="close"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom|right"
+        android:layout_marginLeft="30dp"
+        />
+</FrameLayout>
+
+    <TextView
+
+
+        android:paddingTop="10dp"
+        android:background="@drawable/boundaryanother"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/buidlerlocation"
+        android:text="Your current location"
+        android:textSize="15dp"
+        android:textColor="#8E44AD"
+        android:paddingLeft="19dp"/>
+
+
+
+</LinearLayout>
